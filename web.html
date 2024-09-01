@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios a la oficina de reparto</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        h1 {
+            color: red;
+            width: 500px;
+            border: 1px solid black;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            margin: 0 auto;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        iframe {
+            width: 250%; /* Aumenta el ancho a 2.5 veces el tamaño original */
+            height: 600px; /* Ajusta la altura según sea necesario */
+            border: none; /* Opcional: elimina el borde del iframe */
+            margin-top: 20px; /* Espacio superior para separar del contenido anterior */
+        }
+    </style>
+</head>
+<body>
+    <img src="https://estaticos.elcolombiano.com/binrepository/580x365/0c0/780d565/none/11101/ODAK/collage-sin-titulo-1_40014951_20220520190852.jpg" alt="Descripción de la imagen">
+    <h1>Órdenes recibidas para el despacho</h1>
+    <div class="container mt-4">
+        <table class="table table-bordered table-striped">
+            <thead class="thead-light">
+                <tr>
+                    <th>Número</th>
+                    <th>Fecha</th>
+                    <th>Nevera</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Pesos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2023-09-27 6:16:38</td>
+                    <td>neveraChachones</td>
+                    <td>huevos</td>
+                    <td>10</td>
+                    <td>30000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Hipervínculo agregado -->
+    <div class="container mt-4">
+        <a href="https://docs.google.com/spreadsheets/d/1gylVYLo19n6Dod5O41JoAkA2Iljg7f_2DpdxP8nddkw/edit?usp=sharing" target="_blank" class="btn btn-primary">Haz click aquí para ver tabla de datos</a>
+    </div>
+    <!-- Iframe agregado -->
+    <div class="container mt-4">
+        <iframe src="https://docs.google.com/spreadsheets/d/1gylVYLo19n6Dod5O41JoAkA2Iljg7f_2DpdxP8nddkw/pubhtml?widget=true&amp;headers=false"></iframe>
+    </div>
+    <!-- Enlace a Bootstrap JS (opcional) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
